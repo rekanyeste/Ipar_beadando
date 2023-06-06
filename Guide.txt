@@ -3,5 +3,5 @@
 ### Forrás: https://towardsdatascience.com/real-time-face-recognition-an-end-to-end-project-b738bb0f7348
 
 # Jelenleg két python file található a programban, amiket főleg eszközein teszteléséhez készítetem
-##Első: test.py -> ezzel ellenőriztem, hogy működik-e az importált opencv verziója. A python nyelvnél nagyon fontos, hogy a megfelelő verziójú csomagokat és programokat teleptítsük.
-##Második: cameraTesting.py -> a számítógép vagy laptop kamerájának a tesztelésére elkészített program. Érdemes lefuttatni, hogy minden rendben van-e mielőtt hozzálátunk a többi feladathoz.
+## Első: test.py -> ezzel ellenőriztem, hogy működik-e az importált opencv verziója. A python nyelvnél nagyon fontos, hogy a megfelelő verziójú csomagokat és programokat teleptítsük.
+## Második: cameraTesting.py -> a számítógép vagy laptop kamerájának a tesztelésére elkészített program. Érdemes lefuttatni, hogy minden rendben van-e mielőtt hozzálátunk a többi feladathoz. Csak simán futtassuk le a programot, majd ha látjuk, hogy működik a kamera 'ESC' billentyűvel kiléphetünk belőle.
