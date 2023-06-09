@@ -23,7 +23,7 @@ while(True):
     k = cv2.waitKey(100) & 0xff
     if k == 27:
         break
-    elif count >= 5: # ennyi képet csinál a program
+    elif count >= 15: # ennyi képet csinál a program
          break
 cam.release()
 cv2.destroyAllWindows()
