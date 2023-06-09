@@ -1,7 +1,9 @@
 import numpy as np
 import cv2
 
-faceCascade = cv2.CascadeClassifier('Cascades/haarcascade_eye.xml') # a face rec. programhoz hasonlóan ez nem az arcot, hanem a szemeket ismeri fel
+# a faceDetection program tartalmazza az alábbi kódnak a funkcióját is!!!
+
+faceCascade = cv2.CascadeClassifier('Cascades/haarcascade_eye_tree_eyeglasses.xml')
 
 cap = cv2.VideoCapture(0)
 cap.set(3,640)
@@ -19,7 +21,7 @@ while True:
     )
 
     for (x,y,w,h) in faces:
-        cv2.rectangle(img,(x,y),(x+w,y+h),(0,255,0),2) # Zöld színű lesz a kirajzolt téglalap (R, G = 255, B)
+        cv2.rectangle(img,(x,y),(x+w,y+h),(0,255,0),2)
         roi_color = img[y:y+h, x:x+w]
     
     cv2.imshow('video',img)

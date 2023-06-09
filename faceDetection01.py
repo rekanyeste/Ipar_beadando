@@ -2,7 +2,7 @@ import numpy as np
 import cv2
 
 faceCascade = cv2.CascadeClassifier('Cascades/haarcascade_frontalface_default.xml') # beolvassa az előre megírt arcfelismerőt, amit le lehet tölteni, a Cascades mappa tartalmazza
-eyeCascade = cv2.CascadeClassifier('Cascades/haarcascade_eye.xml')
+eyeCascade = cv2.CascadeClassifier('Cascades/haarcascade_eye_tree_eyeglasses.xml')
 
 cap = cv2.VideoCapture(0)
 cap.set(3,640)
@@ -19,10 +19,10 @@ while True: #ahhoz, hogy 'real-time' legyen a kamera, while-true 'végtelen' cik
         minSize=(20, 20) # mekkora méretű a négyzet, amit az alábbi ciklus rajzol ki:
     )
     eyes = eyeCascade.detectMultiScale(
-        gray, # kamera kép
+        gray,
         scaleFactor=1.2,
         minNeighbors=5,
-        minSize=(20, 20) # mekkora méretű a négyzet, amit az alábbi ciklus rajzol ki:
+        minSize=(20, 20)
     )
     for (x,y,w,h) in faces:
         cv2.rectangle(img,(x,y),(x+w,y+h),(255,0,0),2) # x, y a négyzet egy pontja, szélesség: w, magasság: h + RGB színek
