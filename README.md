@@ -14,9 +14,9 @@
 
 # Arc detektálás kiegészítve szemek felismerésével:
 ## Harmadik program: faceDetection.py -> Az arcunkat ismeri fel a kamerában. Egyelőre csak felismeri azt és nem társítja névhez, csak megismeri, hogy a kamerában egy arc található.
+-  A faceDetection program tartalmazza az eyeDetection funkciót is!
 ## Negyedik program: eyeDetection.py -> ugyanaz, mint a harmadik program, csak itt az emberi szemeket ismeri fel (a tree eyeglasses cascade-dal már csak a szemeket ismeri fel, ez egy pontosabb script mint a sima eye cascade, ami gyakran az orrlyukat is szemekként ismeri fel)
-### A faceDetection program tartalmazza az eyeDetection funkciót is!
-### Az eyeglasses "kaszkád" sokkal jobban felismeri a szemeket szemüvegben, mint a sima eyeCascade, ezért én ezt preferálom.
+- Az eyeglasses "kaszkád" sokkal jobban felismeri a szemeket szemüvegben, mint a sima eyeCascade, ezért én ezt preferálom.
 
 # Arc felismerés megtanult képek alapján:
 ## Ötödik program: FaceRecognition01.py -> Elment 15 db szürkeárnyalatos képet a dataset mappába, miután inputba írtunk egy ID-t és detektálta a kamerában lévő arcot. Ez a program egy lépése annak, hogy a saját arcunkat ismerje fel a végén a programunk.
