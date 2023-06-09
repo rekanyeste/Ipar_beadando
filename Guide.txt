@@ -10,3 +10,4 @@
 ### A faceDetection program tartalmazza az eyeDetection funkciót is!
 ### Az eyeglasses "kaszkád" sokkal jobban felismeri a szemeket szemüvegben, mint a sima eyeCascade, ezért én ezt preferálom.
 ## Ötödik: FaceRecognition01.py -> Elment 5 db szürkeárnyalatos képet a kiválasztott mappába, miután inputba írtunk egy ID-t és detektálta a kamerában lévő arcot. Ez a program egy lépése annak, hogy a saját arcunkat ismerje fel a végén a programunk.
+## Hatodik: FaceRecognition02.py -> A legfontosabb rész. Ez a program tanulja meg az előző programból elmentett képek alapján felismerni az adott személynek az arcát. Mikor lefutott egy yaml fájlt készít a trainer mappába, ez tartalmazza azokat az adatokat, amik a következő lépéshez, vagyis egy arc megismeréséhez szükségesek. Ergo, ha belenézünk a kamerába felismer.
