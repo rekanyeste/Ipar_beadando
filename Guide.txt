@@ -9,3 +9,4 @@
 ## Negyedik: eyeDetection.py -> ugyanaz, mint a harmadik program, csak itt az emberi szemeket ismeri fel (meg néha az orromat...)
 ### A faceDetection program tartalmazza az eyeDetection funkciót is!
 ### Az eyeglasses "kaszkád" sokkal jobban felismeri a szemeket szemüvegben, mint a sima eyeCascade, ezért én ezt preferálom.
+## Ötödik: FaceRecognition01.py -> Elment 5 db szürkeárnyalatos képet a kiválasztott mappába, miután inputba írtunk egy ID-t és detektálta a kamerában lévő arcot
