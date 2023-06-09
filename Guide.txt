@@ -7,4 +7,5 @@
 ## Második: cameraTesting.py -> a számítógép vagy laptop kamerájának a tesztelésére elkészített program. Érdemes lefuttatni, hogy minden rendben van-e mielőtt hozzálátunk a többi feladathoz. Csak simán futtassuk le a programot, majd ha látjuk, hogy működik a kamera 'ESC' billentyűvel kiléphetünk belőle.
 ## Harmadik: faceDetection.py -> Az arcunkat ismeri fel a kamerában. Egyelőre csak felismeri azt és nem társítja névhez, pl.: nem tudja megkülönböztetni egy híresség arcát a sajátomtól. Csak felismeri, hogy a kamerában egy emberi arc van
 ## Negyedik: eyeDetection.py -> ugyanaz, mint a harmadik program, csak itt az emberi szemeket ismeri fel (meg néha az orromat...)
-## A faceDetection program tartalmazza az eyeDetection funkciót is!
+### A faceDetection program tartalmazza az eyeDetection funkciót is!
+### Az eyeglasses "kaszkád" sokkal jobban felismeri a szemeket szemüvegben, mint a sima eyeCascade, ezért én ezt preferálom.

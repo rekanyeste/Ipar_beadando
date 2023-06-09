@@ -2,7 +2,7 @@ import numpy as np
 import cv2
 
 faceCascade = cv2.CascadeClassifier('Cascades/haarcascade_frontalface_default.xml') # beolvassa az előre megírt arcfelismerőt, amit le lehet tölteni, a Cascades mappa tartalmazza
-eyeCascade = cv2.CascadeClassifier('Cascades/haarcascade_eye_tree_eyeglasses.xml')
+eyeCascade = cv2.CascadeClassifier('Cascades/haarcascade_eye_tree_eyeglasses.xml') # ez a fajta eyedetection jobban működik szemüveggel
 
 cap = cv2.VideoCapture(0)
 cap.set(3,640)
